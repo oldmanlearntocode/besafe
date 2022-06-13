@@ -47,7 +47,7 @@ var barColors = [
   "#00aba9",
   "#2b5797",
   "#e8c3b9",
-  "#1e7145"
+ 
 ];
 
 new Chart("myChart3", {
