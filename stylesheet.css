@@ -179,12 +179,18 @@ i {
 }
 
 
-.item5 ul li {
+.item5 ul li a {
   text-decoration: none;
   list-style-type: none;
   font-size: 1em;
   color: rgb(116, 116, 116);
   margin-left: 5px;
+}
+
+.item5 a:hover{
+
+  color: rgb(246, 146, 26);
+
 }
 
 /*item6*/
