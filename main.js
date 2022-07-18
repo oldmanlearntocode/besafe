@@ -1,7 +1,7 @@
 
-var xValues = ["Gaut", "KZN", "WC", "Limp", "NW", "FS", "EC", "NC",];
-var yValues = [35, 14, 21, 3, 8, 2, 4, 1,];
-var barColors = ["red", "green","blue","orange","brown","red", "green","blue","orange",];
+var xValues = ["Gaut", "KZN", "WC", "Limp", "NW", "FS", "EC", "NC","MP",];
+var yValues = [39, 15, 21, 3, 8, 2, 4, 1,1,];
+var barColors = ["red", "green","blue","orange","brown","red", "green","blue","orange","red"];
 
 new Chart("myChart", {
   type: "bar",
@@ -29,7 +29,7 @@ new Chart("myChart2", {
   data: {
     labels: xValues,
     datasets: [{ 
-      data: [0,1,0,0,0,0,1,6,4,1,4,7,11,2,2,3,3,6,4,0,2,24,7],
+      data: [0,1,0,1,0,0,1,6,4,1,4,7,11,3,2,3,3,7,4,1,3,24,8],
       borderColor: "orange",
       fill: false
     }]
@@ -41,7 +41,7 @@ new Chart("myChart2", {
 
 
 var xValues = ["Ages 10-19","Ages 20-29", "Ages 30-39", "Ages 40+", "Unknown",];
-var yValues = [4, 47, 27, 4, 6,];
+var yValues = [5, 48, 28, 5, 8,];
 var barColors = [
   "#b91d47",
   "#00aba9",
